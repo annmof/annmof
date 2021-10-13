@@ -52,7 +52,16 @@
 </template>
 
 <script>
-export default {}
+export default {
+  mounted(){
+    const burger = document.querySelector('.navbar-burger');
+    const nav = document.querySelector('.navbar-menu');
+    burger.addEventListener('click',()=>{
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+    })
+  }
+}
 </script>
 
 <style scoped>
