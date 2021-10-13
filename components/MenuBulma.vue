@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar is-tab" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <NuxtLink to="/" class="navbar-item">
           <img src="~/assets/images/logo 110x150.png" width="55px" height="75px">

@@ -1,6 +1,9 @@
 <template>
   <div>
-    <Menu />
+    <MenuBurger />
+    <div class="center">
+      <img src="~/assets/images/logo 110x150.png" width="220px" height="300px" />
+    </div>
   </div>
 </template>
 
@@ -15,7 +18,10 @@ export default {
 </script>
 
 <style scoped>
-  h1,h2{
-    text-align: center;
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
   }
 </style>
