@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Annmof</h1>
-    <NuxtLink to="blogPage">Blog</NuxtLink>
+    <Menu />
   </div>
 </template>
 
