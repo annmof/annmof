@@ -1,6 +1,6 @@
 <template>
-  <div class="container box">
-    <h2 class="subtitle is-2 has-text-info">{{ post.title }}</h2>
+  <div>
+    <h1>{{ post.title }}</h1>
     <nuxt-content :document="post" />
     <nav class="pagination is-justify-content-center">
       <NuxtLink v-if="prev" class="pagination-previous" :to="{ path: prev.slug }">Previous</NuxtLink>
@@ -13,11 +13,11 @@
 <script>
 export default {
   async asyncData({ $content, params}) {
-    const post = await $content("blog", params.slug).fetch();
+    const post = await $content("blog", params.blog).fetch();
     const [prev, next] = await $content("blog")
       .only(['title', 'slug'])
       .sortBy('title', 'asc')
-      .surround(params.slug)
+      .surround(params.blog)
       .fetch();     
     return {
       post,
@@ -25,5 +25,17 @@ export default {
       next
     };
   },
+  head(){
+    return{
+      title: this.post.description,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Blog post description'
+        }
+      ]
+    } 
+  }
 };
 </script>
