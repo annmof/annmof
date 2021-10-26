@@ -1,14 +1,14 @@
 <template>
-  <div>
+  <div class="font-serif">
     <nav>
-      <nav class="burger-menu">
+      <nav class="burger-menu" @click="isShow = !isShow">
         <div class="burger topline"></div>
         <div class="burger midline"></div>
         <div class="burger botline"></div>
       </nav>
 
-      <div class="menu" style="opacity: 0; filter: blur(5px); display: none">
-        <NuxtLink to="/redaction">
+      <div v-show="isShow" class="menu">
+        <NuxtLink to="/redaction" class="bg-pink-500">
           Rédaction
         </NuxtLink>
 
@@ -38,26 +38,10 @@
 
 <script>
 export default {
-  mounted(){
-    const burger = document.querySelector('.burger-menu');
-    burger.addEventListener('click',()=>{
-      const menu = document.querySelector('.menu');
-      const burgerLines = document.querySelectorAll('.burger');
-      if(menu.style.opacity === "0"){
-        menu.style.opacity="1";
-        menu.style.filter="blur(0px)";
-        menu.style.display="flex";
-      }
-      else{
-        menu.style.display="none";
-        menu.style.opacity="0";
-        menu.style.filter="blur(5px)";
-      }
-      burger.classList.toggle('open');
-      burgerLines.forEach((e)=>{
-        e.classList.toggle('open');
-      })
-    })
+  data() {
+    return {
+      isShow: true
+    }
   }
 }
 </script>
@@ -65,7 +49,7 @@ export default {
 <style scoped>
 .burger{
   width:25px;
-  height:5px;
+  height:2px;
   border-radius:5px;
   background-color: black;
   transition: all .3s ease;
@@ -75,7 +59,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap:5px;
+  gap:8px;
   margin-top:15px;
   margin-right:15px;
   transition: all .3s ease;
@@ -101,7 +85,11 @@ export default {
 
 .menu{
   height:100vh;
+  width: 100vw;
   transition: .4s filter ease, 0.4s opacity ease;
-  flex-direction: column;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -10;
 }
 </style>
