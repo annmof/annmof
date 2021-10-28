@@ -1,8 +1,11 @@
 <template>
   <div>
-    <MenuBurger />
-    <div class="center">
-      <img src="~/assets/images/logo 110x150.png" width="220px" height="300px" />
+    <div id="container">
+      <div class="bg-pink-200 min-h-screen"></div>
+      <div class="bg-purple-200 min-h-screen"></div>
+      <div class="bg-green-200 min-h-screen"></div>
+      <div class="bg-yellow-200 min-h-screen"></div>
+      <div class="bg-blue-200 min-h-screen"></div>
     </div>
   </div>
 </template>
@@ -11,17 +14,16 @@
 export default {
   head() {
     return {
-      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+      script: [
+        {
+          src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'
+        }
+      ],
     };
-  }
+  },
 }
 </script>
 
 <style scoped>
-  .center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:100vh;
-  }
+
 </style>
