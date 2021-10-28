@@ -2,3 +2,10 @@
   font-family: "Bimbo";
   src: local("Bimbo"),     url(~assets/font/Bimbo.ttf) format("truetype");
 }
+
+*{
+  font-family: "Paytone One"
+}
+.bimbo{
+  font-family: "Bimbo";
+}
