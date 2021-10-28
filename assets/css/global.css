@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Bimbo";
+  font-family: "Bimbo", serif;
   src: local("Bimbo"),     url(~assets/font/Bimbo.ttf) format("truetype");
 }
 
 *{
-  font-family: "Paytone One"
+  font-family: "Paytone One", serif;
 }
 .bimbo{
   font-family: "Bimbo";
