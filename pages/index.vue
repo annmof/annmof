@@ -3,7 +3,7 @@
     <logo-section :image-url="require('../assets/images/logo_annmof.png')" title="annmof" font="bimbo"></logo-section>
     <div class="bg-pink-100">
       <p class="text-4xl xl:text-9xl text-center text-purple-500 p-16 filter drop-shadow-xl">Rédactrice web indépendante</p>
-      <p class="text-6xl xl:text-9xl text-center text-yellow-500 transform scale-150 filter drop-shadow-xl">& SEO</p>
+      <p class="text-6xl xl:text-9xl text-center text-yellow-500 transform filter drop-shadow-xl">& SEO</p>
       <p class="text-3xl xl:text-6xl text-center text-green-500 pt-16 filter drop-shadow-xl">Et si on vous taillez une</p>
       <p class="text-6xl xl:text-9xl text-center text-green-500 pt-8 filter drop-shadow-xl">stratégie digitale</p>
       <p class="text-3xl xl:text-6xl text-center text-green-500 pt-16 underline filter drop-shadow-xl">sur-mesure<p>
@@ -47,15 +47,15 @@ export default {
 <style>
   @keyframes beat {
     from {
-      transform: scale3d(1, 1, 1);
+      transform: scale3d(0.85, 0.85, 0.85);
     }
 
     50% {
-      transform: scale3d(1.15, 1.15, 1.15);
+      transform: scale3d(1, 1, 1);
     }
 
     to {
-      transform: scale3d(1, 1, 1);
+      transform: scale3d(0.85, 0.85, 0.85);
     }
   }
 

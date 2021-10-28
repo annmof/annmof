@@ -2,7 +2,7 @@
   <div class="h-screen">
     <img class="m-auto px-16 pb-10 max-h-96 sm:max-h-full" :src="imageUrl" >
     <h1
-      class="text-8xl text-center"
+      class="text-7xl text-center"
       :class="font"
     >
       {{ title }}
