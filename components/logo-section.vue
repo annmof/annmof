@@ -1,11 +1,11 @@
 <template>
   <div class="h-screen">
-    <img class="m-auto px-16 pb-10 max-h-96 sm:max-h-full" :src="imageUrl" width="50%" height="auto">
+    <img class="m-auto px-16 pb-10 max-h-96 sm:max-h-full" :src="imageUrl" width=271 height=563>
     <h1
       class="text-7xl text-center"
       :class="font"
     >
-      {{ title }}
+      {{ brand }}
     </h1>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
       type: String,
       default: ''
     },
-    title: {
+    brand: {
       type: String,
       default: ''
     },

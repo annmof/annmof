@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Bimbo", serif;
-  src: local("Bimbo"),     url(~assets/font/Bimbo.ttf) format("truetype");
+  font-family: "Bimbo";
+  src: local("Bimbo"),url(./static/font/Bimbo.ttf) format("truetype");
 }
 
 *{
