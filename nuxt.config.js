@@ -102,7 +102,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     '@aceforth/nuxt-optimized-images'
   ],
@@ -118,5 +117,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    analyze: false,
   }
 }
