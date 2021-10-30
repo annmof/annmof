@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <logo-section :image-url="require('static/images/logo_annmof.png')" brand="annmof" font="bimbo"></logo-section>
+    <logo-section :image-url="require('static/images/logo_annmof.png?webp')" brand="annmof" font="bimbo"></logo-section>
     <section class="bg-pink-100">
       <h1 class="flex flex-col">
         <span class="text-4xl xl:text-9xl text-center text-purple-500 p-16 filter drop-shadow-xl">Rédactrice web indépendante</span>
