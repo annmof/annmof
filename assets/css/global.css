@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Bimbo";
   src: local("Bimbo"),url(./static/font/Bimbo.ttf) format("truetype");
   font-display: swap;
@@ -9,4 +9,4 @@
 }
 .bimbo{
   font-family: "Bimbo", serif;
-}
+} */
