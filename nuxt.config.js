@@ -21,7 +21,8 @@ export default {
     script: [
       {
         hid: 'tac-script1',
-        src: 'https://cdn.jsdelivr.net/gh/AmauriC/tarteaucitron.js@20210329/tarteaucitron.min.js'
+        src: 'https://cdn.jsdelivr.net/gh/AmauriC/tarteaucitron.js@20210329/tarteaucitron.min.js',
+        defer: true
       },
       {
         hid: 'tac-script2',
