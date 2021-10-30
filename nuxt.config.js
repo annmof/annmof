@@ -32,7 +32,7 @@ export default {
             "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
             "cookieName": "tarteaucitron", /* Cookie name */
         
-            "orientation": "middle", /* Banner position (top - bottom) */
+            "orientation": "bottom", /* Banner position (top - bottom) */
           
             "groupServices": false, /* Group services by category */
                               
