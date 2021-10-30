@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Bimbo";
   src: local("Bimbo"),url(./static/font/Bimbo.ttf) format("truetype");
+  font-display: swap;
 }
 
 *{
