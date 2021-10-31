@@ -23,7 +23,7 @@
         </div>
         <div class="flex-1 shadow-2xl xl:p-16 p-8">
           <p class="text-3xl xl:text-6xl mb-4">80%</p>
-          <p class="text-xl xl:text-2xl">des français achetent sur internet ou s'informent en ligne avant d'acheter un produit ou un service</p>
+          <p class="text-xl xl:text-2xl">des français achètent sur internet ou s'informent en ligne avant d'acheter un produit ou un service</p>
         </div>
       </div>
       <p class="text-pink-500 text-3xl xl:text-6xl text-center p-4 xl:p-16 max-w-prose m-auto">Vos clients vous cherchent sur Internet : Montrez-vous !</p>
