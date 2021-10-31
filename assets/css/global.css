@@ -4,6 +4,12 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Paytone One";
+  src: local("Paytone One"),url(./static/font/Paytoneone.woff2) format("woff2");
+  font-display: swap;
+}
+
 *{
   font-family: "Paytone One", sans-serif;
 }
