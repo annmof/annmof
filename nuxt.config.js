@@ -84,12 +84,6 @@ export default {
     "~assets/css/global.css",
   ],
 
-  googleFonts: {
-    families: {
-      'Paytone One': true,
-    }
-  },
-
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     
@@ -102,7 +96,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/google-fonts',
     '@aceforth/nuxt-optimized-images',
     '@nuxtjs/tailwindcss'
   ],
