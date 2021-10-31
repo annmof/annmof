@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <logo-section :image-url="require('static/images/logo_annmof.png?webp')" brand="annmof" font="bimbo"></logo-section>
     <section class="bg-pink-100">
       <h1 class="flex flex-col">
