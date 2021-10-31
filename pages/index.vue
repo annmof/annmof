@@ -67,6 +67,13 @@ export default {
   head() {
     return {
       title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Devenez visible sur Google avec une stratégie de référencement naturel : mots-clés, rédaction optimisée et suivi SEO. 🌈 07.76.69.94.63'
+        }
+      ]
     };
   },
 }
