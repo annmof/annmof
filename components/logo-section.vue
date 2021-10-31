@@ -1,12 +1,12 @@
 <template>
   <div class="h-screen">
     <img id="logo" :src="imageUrl" class="mx-auto px-8 mb-8" width="auto" height="75vh">
-    <h1
+    <p
       class="text-7xl text-center"
       :class="font"
     >
       {{ brand }}
-    </h1>
+    </p>
   </div>
 </template>
 
