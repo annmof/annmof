@@ -7,7 +7,7 @@
         <span class="text-6xl xl:text-9xl text-center text-yellow-500 transform filter drop-shadow-xl">& SEO</span>
       </h1>
       <h2 class="flex flex-col">
-        <span class="text-3xl xl:text-6xl text-center text-green-500 pt-16 filter drop-shadow-xl">Et si on vous taillez une</span>
+        <span class="text-3xl xl:text-6xl text-center text-green-500 pt-16 filter drop-shadow-xl">Et si on vous taillait une</span>
         <span class="text-6xl xl:text-9xl text-center text-green-500 pt-8 filter drop-shadow-xl">stratégie digitale</span>
         <span class="text-3xl xl:text-6xl text-center text-green-500 pt-16 underline filter drop-shadow-xl">sur-mesure</span>
         <span class="text-6xl xl:text-9xl text-center text-green-500 p-16 filter drop-shadow-xl">?</span>
