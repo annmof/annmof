@@ -52,7 +52,7 @@
     </section>
     <section class="bg-indigo-100 z-20 relative text-center text-green-500 text-3xl">
       <p class="text-3xl md:text-9xl pt-16 pb-16">CLIENTS</p>
-      <p class="text-yellow-500 p-4 w-full md:w-3/6 m-auto">Hello Work . Celinika Web . Institut de Formation des Thérapies Brèves (IFTB) . BTV Media Sud . Hypnos Thérapie . Kaly Sushi . Coaching Thérapies . Deuche Forever . Moulin O’ live PROD . SPI Formation . Paye Pro CBF . NetPartner . HP Automobile . Chez Stéphane . Fit Healthy . Dynamic Change . HoliSanté . Red Act . Auto CRF . Pizza des Lys . Nathalie Rodriguez Photographe . FPIS . Ô Naturel Coiffure . Webiliko . Veoneo . Clarashop . Sophia Langues . Izika . Objectif Liberté . Deuche Forever . RCH Méditerranée . France Verte .</p>
+      <p class="text-yellow-500 p-4 w-full md:w-3/6 m-auto">L’Arbre Vert . B&B Home . David B Paris . Flowerbox Swiss . Gentleview . Erminia Dev . Home Gaïa . Red Act . Robert and Cau . A Ton Étoile . SPI Formation . Hello Work . Celinika Web . Institut de Formation des Thérapies Brèves (IFTB) . BTV Media Sud . Hypnos Thérapie . Kaly Sushi . Coaching Thérapies . Deuche Forever . Moulin O’ live PROD . Paye Pro CBF . NetPartner . HP Automobile . Emmop Design . Chez Stéphane . Aponi Conseils .  Fit Healthy . Dynamic Change . HoliSanté . Red Act . A Fer Express . Auto CRF . Berger Expertise . Pizza des Lys . Nathalie Rodriguez Photographe . Diétéquilibre . FPIS . Ô Naturel Coiffure . Webiliko . Veoneo . Clarashop . Sophia Langues . Izika . Objectif Liberté . RCH Méditerranée . France Verte .</p>
     </section>
   </div>
 </template>
